@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+.stst{
+  background: #ccc;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 20px
+}
+.notch{
+  margin-left: auto;
+  margin-right: auto;
+}
+.mojang{
+  scale: 30%
+}
+body {
+ background-color: lightcyan;
+}

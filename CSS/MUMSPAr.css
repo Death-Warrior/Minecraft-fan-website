@@ -1,0 +1,16 @@
+body {
+  background-image: url("../IMG/black_ppl.png");
+  background-repeat: no-repeat, repeat;
+  
+  background-size: cover;
+  background-color: #cccccc;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+div {
+  align-items: center;
+  text-align: center;
+  color: white;
+}
