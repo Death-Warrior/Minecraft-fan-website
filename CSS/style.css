@@ -1,13 +1,60 @@
+@import url(//db.onlinewebfonts.com/c/6ab539c6fc2b21ff0b149b3d06d7f97c?family=Minecraft);
+@font-face {font-family: "Minecraft"; src: url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot"); src: url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff") format("woff"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.svg#Minecraft") format("svg");}
 .backgroundvideo {
   position: fixed;
   left: 50%;
   top: 50%;
   min-width: 100vw;
   min-height: 100vh;
+  max-height: 100vh;
   transform: translate(-50%, -50%);
 }
-.amongus {
+.buttones {
+  min-width: 37.0370370370370vh;
+  min-height: 3.70370370370370%;
+  font-size: 1.4vh;
+  font-family: Minecraft;
   position: absolute;
-  top: 0;
-  left: 0;
+  color: white;
+  left: 50%;
+  transform: translate(-50%);
+  background: url("../IMG/buttonO.png") no-repeat;
+  background-size: cover;
+  text-align: center;
+  z-index: 2;
+}
+.aligntext {
+  font-family: Minecraft;
+  text-shadow: 0.207vh 0.207vh black;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.buttones:hover {
+  background: url("../IMG/buttonX.png") no-repeat;
+  background-size: cover;
+  color: moccasin;
+}
+.button1 {
+  position: absolute;
+  top: 34%;
+  transform: translate(-50%);
+}
+.button2 {
+  position: absolute;
+  top: 38.43%;
+  transform: translate(-50%);
+}
+.button3 {
+  position: absolute;
+  top: 42.85%;
+  transform: translate(-50%);
+}
+.button4 {
+  position: absolute;
+  top: 49.45%;
+  transform: translate(-50%);
 }
