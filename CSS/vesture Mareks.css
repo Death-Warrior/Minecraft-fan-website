@@ -1,8 +1,15 @@
+@font-face {
+  font-family: minecraftFont;
+  src: url("../minecraft.ttf");
+}
 h1 {
+      font-family: minecraftFont;
+    color: white;
   text-align: center;
 }
 .stst{
-  background: #ccc;
+  color: whitesmoke;
+  font-family: minecraftFont;
   margin-left: 25%;
   margin-right: 25%;
   font-size: 20px
@@ -15,9 +22,24 @@ h1 {
   scale: 30%
 }
 body {
- background-color: lightcyan;
-}
+    font-family: minecraftFont;
+    color: white;
+  background-image: url("../images/minecraftbg.png");
+  background-repeat: no-repeat, repeat;
+  
+  background-size: cover;
+  background-color: #cccccc;
+  }
 .tab{
   Margin-left: 17%;
   Margin-right: 17%
+}
+img {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
 }

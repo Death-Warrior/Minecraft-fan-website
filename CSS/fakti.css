@@ -1,3 +1,7 @@
+@font-face {
+  font-family: minecraftFont;
+  src: url("../minecraft.ttf");
+}
 #izmers {
   font-size: 50px;
 }
@@ -7,11 +11,19 @@
   margin-right: auto;
 }
 h1{
-  font-family: 'Courier New', Courier, monospace;
+  //font-family: 'Courier New', Courier, monospace;
+  font-family: 'minecraftFont';
+  color: white;
   text-align: center;
 }
 body {
- background-color: pink;
+  font-family: 'minecraftFont';
+  color: white;
+  background-image: url("../images/minecraftbg.png");
+  background-repeat: no-repeat, repeat;
+  
+  background-size: cover;
+  background-color: #cccccc;
  text-align: center;
 }
 img {
@@ -20,9 +32,17 @@ img {
   margin-right: auto;
 }
 p{
-  font-family: Arial;
+  font-family: 'minecraftFont';
+  color: white;
   font-size: 20px;
 }
 div {
+  font-family: 'minecraftFont';
+    color: white;
   text-align: center;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
 }

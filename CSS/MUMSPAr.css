@@ -1,16 +1,27 @@
+@font-face {
+  font-family: minecraftFont;
+  src: url("../minecraft.ttf");
+}
 body {
-  background-image: url("../IMG/black_ppl.png");
+  background-image: url("../images/minecraftbg.png");
   background-repeat: no-repeat, repeat;
   
   background-size: cover;
   background-color: #cccccc;
 }
 h1{
+      font-family: 'minecraftFont';
   text-align: center;
   color: white;
 }
 div {
+      font-family: 'minecraftFont';
   align-items: center;
   text-align: center;
   color: white;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
 }
